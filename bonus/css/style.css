@@ -1,0 +1,48 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.citta{
+  width: calc(100% - 30px);
+  height: 100vh;
+  margin: auto;
+  background-size: cover;
+  border: 10px solid white;
+  box-shadow: 4px 4px 8px black;
+}
+
+.layover{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+#martinsicuro{
+  background-image: url(../img/foto02-992.jpg);
+}
+
+#molfetta{
+  background-image: url(../img/h_visit_molfetta.jpg);
+}
+
+#roma{
+  background-image: url(../img/affitti-brevi-roma.jpg);
+}
+
+.descrizione{
+  position: absolute;
+  top: calc((100% - 168px) / 2);
+  left: calc((100vw - 590px + 30px) / 2);
+  color: white;
+  font-family: 'Righteous', cursive;
+  font-size: 50px;
+  text-shadow: 4px 4px 8px black;
+}
+
+.descrizione h2{
+  font-size: 35px;
+  text-align: center;
+}
